@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 75%;
+  margin: 2px auto;
+  background-color: white;
+}
+
+
 body {
   background-color: #F6F8F9;
 }
@@ -25,4 +32,36 @@ header {
  font-size: 40px;
  font-weight: bold;
  vertical-align: middle;
+}
+
+/*  MAIN */
+
+/* buttons */
+main .buttons-bar  {
+  height: 50px;
+  margin-top: 40px;
+  padding: 12px 50px;
+  border-radius: 7px 7px 0 0;
+}
+
+.buttons-bar .button {
+  font-size: 11px;
+  height: 25px;
+  padding: 5px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.buttons-bar .button.task {
+  width: 70px;
+  color: white;
+  background-color: #47ADF1;
+  border: transparent;
+}
+
+.buttons-bar .button.section {
+  width: 85px;
+  color: #C8CED3;
+  background-color: white;
+  border: 1px solid #C8CED3;
 }
