@@ -65,3 +65,70 @@ main .buttons-bar  {
   background-color: white;
   border: 1px solid #C8CED3;
 }
+
+/* content */
+main .content {
+  padding: 30px 50px;
+  border-radius: 0 0 7px 7px;
+}
+
+.content .toggle-list {
+  padding: 10px;
+}
+
+.content .list-type {
+  color: #434750;
+}
+
+.list-type::before {
+  content: '\25BE ';
+}
+
+.check-done::before{
+  content: '\02714 ';
+}
+
+.toggle-list .check-done {
+  color: #67C2AC;
+  border: 1px solid #67C2AC;
+  border-radius: 50%;
+}
+
+.toggle-list .tag {
+  font-size: 12px;
+  color: white;
+  border-radius: 10px;
+  padding: 4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.toggle-list .tag.editorial {
+  background-color: #45ABEA;
+  width: 57px;
+}
+
+.check-undone::before{
+  content: '\02717 ';
+}
+
+.toggle-list .check-undone {
+  color: #EB5952;
+  border: 1px solid #EB5952;
+  border-radius: 50%;
+}
+
+.toggle-list .tag.goals {
+  background-color: #9C72E4;
+  width: 60px;
+}
+
+.toggle-list .tag.recruiting {
+  background-color: #64C0A9;
+  width: 65px;
+}
+
+.toggle-list .tag.mobile {
+  background-color: #D58B2D;
+  width: 47px;
+}
