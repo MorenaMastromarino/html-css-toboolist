@@ -92,6 +92,11 @@ main .content {
   color: #67C2AC;
   border: 1px solid #67C2AC;
   border-radius: 50%;
+  font-size: 10px;
+}
+
+.toggle-list .task {
+  margin: 12px;
 }
 
 .toggle-list .tag {
@@ -116,6 +121,7 @@ main .content {
   color: #EB5952;
   border: 1px solid #EB5952;
   border-radius: 50%;
+  font-size: 10px;
 }
 
 .toggle-list .tag.goals {
@@ -132,3 +138,13 @@ main .content {
   background-color: #D58B2D;
   width: 47px;
 }
+
+.toggle-list .tag.website {
+  background-color: #D863A1;
+  width: 56px;
+}
+.toggle-list .tag.sales {
+  background-color: #B0C926;
+  width: 45px;
+}
+
